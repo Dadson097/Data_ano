@@ -1,2 +1,3 @@
-ano = int(input('Digite em que ano estamos: '))
-print('Estamos em: {}'.format(ano)) 
+from datetime import date
+data = date.today()
+print(data)
